@@ -1,6 +1,17 @@
 <template>
     <div>
-        <b-table v-if="items.length > 0" :data="items" :columns="columns"></b-table>
+        <b-table v-if="items.length > 0" :data="items" :columns="columns">
+            <template slot-scope="props">
+                <b-table-column v-for="(type, key) in type.fields" :field="key" :label="type.label">
+                    {{ props.row[key] }}
+                </b-table-column>
+
+                <b-table-column field="controls" label="Controls">
+                    <button class="button is-warning">Edit</button>
+                    <button class="button is-danger">Delete</button>
+                </b-table-column>
+            </template>
+        </b-table>
     </div>
 </template>
 
@@ -45,6 +56,11 @@
                         label: this.type.fields[key].label,
                     });
                 }
+
+                columns.push({
+                    field: 'controls',
+                    label: 'Controls'
+                });
 
                 return columns;
             }

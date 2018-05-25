@@ -17,11 +17,39 @@
         },
         {
             "title": "Events",
-            "slug": "events"
+            "slug": "events",
+            "fields": {
+                "id": {
+                    "label": "ID"
+                },
+                "title": {
+                    "label": "Title"
+                },
+                "date": {
+                    "label": "Date"
+                }
+            }
         },
         {
             "title": "Users",
-            "slug": "users"
+            "slug": "users",
+            "fields": {
+                "id": {
+                    "label": "ID"
+                },
+                "first_name": {
+                    "label": "First name"
+                },
+                "last_name": {
+                    "label": "Last name"
+                },
+                "city": {
+                    "label": "City"
+                },
+                "date": {
+                    "label": "Date"
+                }
+            }
         }
     ],
     "articles": [

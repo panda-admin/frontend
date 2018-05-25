@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="column is-9">
-                    <router-view/>
+                    <router-view :key="$route.path" />
                 </div>
             </div>
         </div>
