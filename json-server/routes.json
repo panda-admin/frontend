@@ -1,0 +1,6 @@
+{
+    "/api/*": "/$1",
+    "/types": "/types",
+    "/types/:type/meta": "/types?slug=:type&_singular=1",
+    "/types/:type": "/:type"
+}

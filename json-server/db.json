@@ -1,0 +1,198 @@
+{
+    "types": [
+        {
+            "title": "Articles",
+            "slug": "articles",
+            "fields": {
+                "id": {
+                    "label": "ID"
+                },
+                "title": {
+                    "label": "Title"
+                },
+                "content": {
+                    "label": "Content"
+                }
+            }
+        },
+        {
+            "title": "Events",
+            "slug": "events"
+        },
+        {
+            "title": "Users",
+            "slug": "users"
+        }
+    ],
+    "articles": [
+        {
+            "id": 0,
+            "title": "Consequat ad ad veniam id ut fugiat.",
+            "content": "Duis duis ea laborum amet incididunt tempor dolore enim esse exercitation nulla fugiat. Elit do laborum anim nisi ipsum aliquip cupidatat est nulla tempor ut deserunt sunt qui. Consectetur officia sit laboris enim occaecat magna pariatur exercitation amet irure. Nostrud sunt magna veniam irure eiusmod esse Lorem deserunt amet ea est commodo aliquip. Pariatur eiusmod non culpa nostrud aliqua reprehenderit Lorem est aute ex."
+        },
+        {
+            "id": 1,
+            "title": "Aute deserunt commodo pariatur pariatur sint aute Lorem eu fugiat enim irure amet incididunt reprehenderit.",
+            "content": "Ad aliquip Lorem elit cillum. Nostrud occaecat voluptate occaecat veniam dolore et et. Aliquip eu occaecat enim incididunt dolor officia. Do aliquip minim dolor commodo esse excepteur magna occaecat amet amet officia. Sint do nisi consectetur deserunt."
+        },
+        {
+            "id": 2,
+            "title": "Est nostrud nulla proident quis cupidatat ut.",
+            "content": "Labore incididunt eiusmod laboris officia consectetur id irure amet culpa voluptate. Nulla eiusmod labore nostrud culpa anim. Consequat tempor dolor aute qui elit dolor anim consequat mollit pariatur excepteur reprehenderit exercitation nulla. Excepteur cillum tempor ipsum aliquip irure fugiat consequat esse nulla et sunt ipsum. Elit sunt laborum consectetur irure consectetur tempor quis proident ad."
+        },
+        {
+            "id": 3,
+            "title": "Qui est irure consectetur dolore.",
+            "content": "Laboris magna fugiat ut ea velit aute cillum ipsum in nostrud. Elit non ullamco nostrud cillum ut aliquip aliquip irure voluptate non quis. Amet ad ut laboris exercitation ad dolor pariatur incididunt. Dolore ex sint voluptate laboris id esse veniam cillum do. Et sint exercitation magna eiusmod."
+        },
+        {
+            "id": 4,
+            "title": "Minim quis velit esse ut deserunt ea ex irure.",
+            "content": "Sunt proident ex nisi consequat nisi reprehenderit sit tempor Lorem ipsum id. Ut id ad veniam eiusmod exercitation id elit nulla laboris incididunt. Incididunt laborum occaecat amet occaecat dolore ex enim eiusmod consequat ea. Sint deserunt ea nisi sit enim Lorem duis proident reprehenderit eu. Commodo dolor duis sunt dolore exercitation fugiat enim et duis elit laborum eiusmod irure pariatur."
+        },
+        {
+            "id": 5,
+            "title": "Dolor labore sit non et commodo quis.",
+            "content": "Tempor commodo ea culpa aliquip laborum dolore eu et dolore nostrud tempor do. Minim eu dolore culpa nisi proident magna est proident nulla sit nisi excepteur. Eu amet dolore enim cillum ipsum minim labore incididunt. In dolor est ea nulla aliquip laborum quis dolore veniam ea qui. Dolor magna voluptate aliquip adipisicing consequat nisi consectetur nostrud officia laboris voluptate proident adipisicing."
+        },
+        {
+            "id": 6,
+            "title": "Qui sint minim occaecat duis adipisicing Lorem eiusmod veniam.",
+            "content": "Aliqua ad deserunt ea tempor incididunt ea nostrud ex aute irure. Labore esse eu anim non anim cillum id occaecat officia sunt tempor voluptate incididunt sit. Et consequat aliqua ipsum exercitation quis velit minim ex cillum. Id est commodo anim Lorem laborum. Proident aliquip nulla sit id cupidatat ea sint adipisicing quis occaecat commodo."
+        },
+        {
+            "id": 7,
+            "title": "Consequat ex ullamco nisi ut nulla adipisicing.",
+            "content": "Nulla ut consectetur id aute ut do ex. Lorem enim culpa reprehenderit aliqua quis sit velit nostrud. In consectetur fugiat amet consectetur sit elit velit ea irure amet proident quis ex dolore. Id sunt dolore culpa cupidatat id dolore aute ad. Laborum esse esse cupidatat qui reprehenderit voluptate et consectetur."
+        },
+        {
+            "id": 8,
+            "title": "Qui Lorem exercitation esse laborum tempor dolore irure.",
+            "content": "Ut dolore est cupidatat consequat anim laboris eiusmod. Ut qui dolor ea labore commodo consequat mollit reprehenderit magna id adipisicing nulla magna commodo. Magna eu ex duis excepteur mollit in consectetur. Laboris esse esse eiusmod consectetur labore cupidatat. Nisi et dolore cupidatat veniam fugiat do deserunt magna elit labore cillum nisi do."
+        },
+        {
+            "id": 9,
+            "title": "Tempor elit elit amet quis et irure proident consectetur.",
+            "content": "Mollit proident velit aliquip incididunt sunt exercitation. Occaecat voluptate ipsum pariatur ipsum duis consequat dolore ipsum. Commodo labore magna ipsum eu dolor eu cupidatat fugiat do nisi ipsum nisi ullamco minim. Adipisicing proident reprehenderit fugiat sunt eiusmod ipsum. Ullamco officia qui quis reprehenderit."
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "title": "Labore est fugiat voluptate do sint proident esse mollit consectetur fugiat consequat aliquip aute.",
+            "date": "Sat Mar 09 1996 00:04:27 GMT+0000 (UTC)"
+        },
+        {
+            "id": 1,
+            "title": "Nostrud ex adipisicing consequat sit minim excepteur labore sint aute eiusmod in.",
+            "date": "Wed Mar 14 2018 19:03:19 GMT+0000 (UTC)"
+        },
+        {
+            "id": 2,
+            "title": "Occaecat eu do laborum adipisicing quis proident anim mollit velit dolor id adipisicing.",
+            "date": "Sat Jan 14 2012 08:06:23 GMT+0000 (UTC)"
+        },
+        {
+            "id": 3,
+            "title": "Magna aliquip exercitation amet cupidatat irure mollit.",
+            "date": "Sun Jun 30 2013 19:51:30 GMT+0000 (UTC)"
+        },
+        {
+            "id": 4,
+            "title": "Qui adipisicing Lorem quis ut nisi magna deserunt labore.",
+            "date": "Sat Aug 26 1972 09:27:36 GMT+0000 (UTC)"
+        },
+        {
+            "id": 5,
+            "title": "Dolore minim nulla adipisicing cillum.",
+            "date": "Sun Jun 19 1988 02:47:14 GMT+0000 (UTC)"
+        },
+        {
+            "id": 6,
+            "title": "Magna excepteur et deserunt labore adipisicing laboris ea et ut aliqua labore.",
+            "date": "Thu Mar 10 1994 12:22:16 GMT+0000 (UTC)"
+        },
+        {
+            "id": 7,
+            "title": "Nisi id ea fugiat culpa exercitation laborum enim nulla.",
+            "date": "Thu Aug 10 2000 13:55:44 GMT+0000 (UTC)"
+        },
+        {
+            "id": 8,
+            "title": "Est labore commodo ullamco nostrud magna velit.",
+            "date": "Fri Jan 11 1980 18:27:49 GMT+0000 (UTC)"
+        }
+    ],
+    "users": [
+        {
+            "id": 0,
+            "first_name": "Brown",
+            "last_name": "Vargas",
+            "city": "Rew",
+            "date": "Sat Mar 19 1994 17:09:54 GMT+0000 (UTC)"
+        },
+        {
+            "id": 1,
+            "first_name": "Elaine",
+            "last_name": "Ballard",
+            "city": "Grahamtown",
+            "date": "Fri Jul 01 2005 12:45:57 GMT+0000 (UTC)"
+        },
+        {
+            "id": 2,
+            "first_name": "Leann",
+            "last_name": "Ashley",
+            "city": "Tilleda",
+            "date": "Thu Sep 08 1977 01:38:34 GMT+0000 (UTC)"
+        },
+        {
+            "id": 3,
+            "first_name": "Dalton",
+            "last_name": "Kline",
+            "city": "Homestead",
+            "date": "Wed Feb 28 2001 04:13:26 GMT+0000 (UTC)"
+        },
+        {
+            "id": 4,
+            "first_name": "Mayra",
+            "last_name": "Hewitt",
+            "city": "Fontanelle",
+            "date": "Tue Jan 09 2007 04:35:41 GMT+0000 (UTC)"
+        },
+        {
+            "id": 5,
+            "first_name": "Keller",
+            "last_name": "Walsh",
+            "city": "Soham",
+            "date": "Tue May 18 2010 17:43:06 GMT+0000 (UTC)"
+        },
+        {
+            "id": 6,
+            "first_name": "Karen",
+            "last_name": "Atkinson",
+            "city": "Imperial",
+            "date": "Thu Jun 11 1992 01:16:16 GMT+0000 (UTC)"
+        },
+        {
+            "id": 7,
+            "first_name": "Park",
+            "last_name": "Joyner",
+            "city": "Talpa",
+            "date": "Fri Jul 14 1995 18:10:19 GMT+0000 (UTC)"
+        },
+        {
+            "id": 8,
+            "first_name": "Judy",
+            "last_name": "Stein",
+            "city": "Westphalia",
+            "date": "Thu Jan 23 1997 19:30:24 GMT+0000 (UTC)"
+        },
+        {
+            "id": 9,
+            "first_name": "Gay",
+            "last_name": "Cole",
+            "city": "Savage",
+            "date": "Sun May 13 1973 15:12:22 GMT+0000 (UTC)"
+        }
+    ]
+}
