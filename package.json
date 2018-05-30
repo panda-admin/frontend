@@ -11,14 +11,15 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js",
-    "data-server": "json-server --watch json-server/db.json --routes json-server/routes.json --middlewares json-server/_singular.js"
+    "rest-server": "json-server --watch json-server/db.json --routes json-server/routes.json --middlewares json-server/_singular.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "buefy": "^0.6.5",
     "json-server": "^0.12.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

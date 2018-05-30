@@ -12,7 +12,7 @@
             Content Types
         </p>
         <ul class="menu-list">
-            <li v-for="type in contentTypes">
+            <li v-for="type in types">
                 <router-link :to="`/content/${type.slug}`">{{ type.title }}</router-link>
             </li>
         </ul>
@@ -20,16 +20,15 @@
 </template>
 
 <script>
-    import api from '../../api/api';
-
     export default {
-        data() {
-            return {
-                contentTypes: []
-            }
-        },
         mounted() {
-            api.types.index().then(res => this.contentTypes = res.data);
+            this.$store.dispatch('fetchTypes');
+        },
+
+        computed: {
+            types() {
+                return this.$store.state.types;
+            }
         }
     }
 </script>

@@ -1,5 +1,8 @@
 <template>
     <div>
+        <router-link class="button is-primary" :to="`/content/${$route.params.type}/new`">
+            Create {{ $route.params.type }}
+        </router-link>
         <b-table v-if="items.length > 0" :data="items" :columns="columns">
             <template slot-scope="props">
                 <b-table-column v-for="(type, key) in type.fields" :field="key" :label="type.label">
@@ -7,7 +10,9 @@
                 </b-table-column>
 
                 <b-table-column field="controls" label="Controls">
-                    <button class="button is-warning">Edit</button>
+                    <router-link class="button is-warning" :to="`/content/${$route.params.type}/${items.id}`">
+                        Edit
+                    </router-link>
                     <button class="button is-danger">Delete</button>
                 </b-table-column>
             </template>

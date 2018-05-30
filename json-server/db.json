@@ -5,13 +5,16 @@
             "slug": "articles",
             "fields": {
                 "id": {
-                    "label": "ID"
+                    "label": "ID",
+                    "component": "text-field"
                 },
                 "title": {
-                    "label": "Title"
+                    "label": "Title",
+                    "component": "text-field"
                 },
                 "content": {
-                    "label": "Content"
+                    "label": "Content",
+                    "component": "textarea-field"
                 }
             }
         },
@@ -23,10 +26,12 @@
                     "label": "ID"
                 },
                 "title": {
-                    "label": "Title"
+                    "label": "Title",
+                    "component": "text-field"
                 },
                 "date": {
-                    "label": "Date"
+                    "label": "Date",
+                    "component": "text-field"
                 }
             }
         },
